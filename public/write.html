@@ -14,7 +14,8 @@
         </div>
         <!-- 메인 콘텐츠 -->
         <div class = "content">
-            <input class="content_date" type="date" />
+            <!-- 날짜 선택란 -->
+            <div class = "content_date"><input class="content_date_calendar" type="date" /></div>
             <!-- todolist 작성칸 -->
             <div class="write">
                 <!-- 실제 작성하는 곳 -->
@@ -25,12 +26,13 @@
                 <!-- todolist 보는곳 -->
                 <div class = "write_list"> 
                     <ul class = "write_list_line"></ul>
-                    
                 </div>
 
-                <script src = "wirte.js">
-
-                </script>
+                <script src = "wirte.js"></script>
+            </div>
+            <!-- 작성한 날짜 별로 todolist 보는 곳 -->
+            <div class="content_catalog">
+                <p>씨발</p>
             </div>
         </div>
     </div>
